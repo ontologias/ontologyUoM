@@ -3580,6 +3580,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavino_Ltd."/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#mirror_inside1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DELIVER</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2">
@@ -3674,6 +3688,20 @@
         <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</AssignmentID>
         <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DELIVER</Process_Type>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.090909091</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavino_Ltd."/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#mirror_inside1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAKE</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</risk>
     </owl:NamedIndividual>
     
 
@@ -6361,6 +6389,18 @@
         <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_8"/>
         <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#780_A330_Lavatory_door_handle"/>
         <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</TeamID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_10"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_9"/>
+        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#35000_K356_Mirror_inside_lavatory"/>
+        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</TeamID>
     </owl:NamedIndividual>
     
 
