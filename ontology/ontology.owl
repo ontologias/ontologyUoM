@@ -2846,6 +2846,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology# -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#"/>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation">
@@ -4508,12 +4514,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_70">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
-        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#"/>
         <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#door_panel1"/>
         <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
         <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">70</AssignmentID>
         <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLAN_AND_MANAGE</Process_Type>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4</risk>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</risk>
     </owl:NamedIndividual>
     
 
