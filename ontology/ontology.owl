@@ -6016,6 +6016,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_257 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_257">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#CT_Ltd."/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">257</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLAN_AND_MANAGE</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.384615385</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_258 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_258">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#CT_Ltd."/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">258</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DESIGN_AND_DEVELOP</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.384615385</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_259 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_259">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#AviaDesign"/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">259</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAKE</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.230769231</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_26 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_26">
@@ -10836,6 +10878,19 @@
         <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_18"/>
         <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#230_A321_Lavatory_door_panel"/>
         <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</TeamID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_80 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_80">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_257"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_258"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_259"/>
+        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#600_B737_Lavatories"/>
+        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</TeamID>
     </owl:NamedIndividual>
     
 
